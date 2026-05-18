@@ -157,6 +157,29 @@ img{max-width:100%;height:auto;}
 .network-card p{font-size:14px;color:color-mix(in srgb,var(--ink) 65%,transparent);margin-bottom:12px;}
 .network-card a{font-size:14px;font-weight:600;}
 
+/* Commerce catalog */
+.catalog-alert{
+  padding:18px 20px;border:1px solid color-mix(in srgb,var(--primary) 28%,transparent);
+  border-left:5px solid var(--primary);border-radius:12px;background:#fff;margin-bottom:28px;
+  color:color-mix(in srgb,var(--ink) 80%,transparent);
+}
+.catalog-meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px;}
+.catalog-pill{
+  display:inline-flex;padding:6px 10px;border-radius:999px;background:color-mix(in srgb,var(--secondary) 16%,#fff);
+  color:var(--ink);font-size:13px;font-weight:700;
+}
+.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.catalog-card{
+  min-height:260px;padding:22px;border-radius:14px;background:#fff;border:1px solid rgba(0,0,0,0.08);
+  display:flex;flex-direction:column;gap:10px;
+}
+.catalog-card h3{font-family:var(--display);font-size:18px;line-height:1.25;}
+.catalog-card p{font-size:14px;color:color-mix(in srgb,var(--ink) 68%,transparent);}
+.catalog-price{font-family:var(--display);font-size:26px;font-weight:800;color:var(--primary);}
+.catalog-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;}
+.catalog-tag{font-size:12px;padding:5px 8px;border-radius:999px;background:color-mix(in srgb,var(--primary) 9%,#fff);color:var(--ink);}
+.catalog-card .btn{margin-top:10px;text-align:center;width:100%;}
+
 /* Email capture */
 .email-form{display:flex;gap:10px;flex-wrap:wrap;max-width:460px;}
 .email-form input{
@@ -169,7 +192,7 @@ img{max-width:100%;height:auto;}
 @media(max-width:768px){
   .hero-section{padding:48px 0 40px;}
   .hero-content h1{font-size:28px;}
-  .features-grid,.offers-grid,.process-grid,.proof-grid,.network-grid{grid-template-columns:1fr;}
+  .features-grid,.offers-grid,.process-grid,.proof-grid,.network-grid,.catalog-grid{grid-template-columns:1fr;}
   .nav-links{gap:4px;}
   .nav-links a{padding:6px 10px;font-size:13px;}
   .footer-content{flex-direction:column;text-align:center;}
