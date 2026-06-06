@@ -1,86 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thank You | My Seasonal Spark</title>
-  <meta name="description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta property="og:title" content="Thank You | My Seasonal Spark">
-  <meta property="og:description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://myseasonalspark.com/">
-  <meta property="og:image" content="https://myseasonalspark.com/assets/og-image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Thank You | My Seasonal Spark">
-  <meta name="twitter:description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta name="twitter:image" content="https://myseasonalspark.com/assets/og-image.png">
-  <link rel="icon" href="./assets/favicon.ico">
-  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Righteous:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Seasonal Spark | Thank You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Righteous:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body data-business-id="b2">
-  <header class="site-header">
-    <div class="container">
-      <a href="./index.html" class="logo"><span>M</span>y Seasonal Spark</a>
-      <nav class="nav-links">
-    <a href="./index.html" class="active">Home</a>
-    <a href="./offer.html">Catalog</a>
-    <a href="./checkout.html">Store Status</a>
+<body class="mode-human">
+  <main class="page">
+    <header class="header">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-copy">
+          <strong>My Seasonal Spark</strong>
+          <span>Spark or star paired with a gift-ready seasonal mark.</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a class='button ghost' href='index.html'>Home</a>
+        <a class='button ghost' href='offer.html'>Offer</a>
+        <a class='button ghost' href='checkout.html'>Checkout</a>
+        <a class='button ghost' href='channels.html'>Channels</a>
+        <a class='button primary' href='thank-you.html'>Thank You</a>
       </nav>
-    </div>
-  </header>
-  <section class="hero-section">
-    <div class="container">
-      <div class="hero-content">
-        <h1>Thank You!</h1>
-        <p>Your purchase is confirmed. Check your email for delivery details and next steps.</p>
-        <div class="btn-group">
-          <a href="./index.html" class="btn btn-primary">Back to Home</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">What Happens Next</h2>
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>Check Your Email</h3>
-          <p>You'll receive a confirmation email with your receipt and access details within minutes.</p>
+    <section class="hero">
+      <article class="hero-card">
+        <div class="eyebrow">After Purchase</div>
+        <h1>End with momentum, not a dead receipt.</h1>
+        <p>The thank-you experience should feel like a clean continuation of the brand, not a generic dead-end receipt screen.</p>
+        <div class="actions">
+          <a class="button primary" href="./channels.html">Review Channel Follow-Up</a>
+          <a class="button ghost" href="./checkout.html">Back to Checkout Preview</a>
         </div>
-        <div class="feature-card">
-          <h3>Access Your Purchase</h3>
-          <p>Digital products are available immediately. Service engagements begin within 24 hours.</p>
-        </div>
-        <div class="feature-card">
-          <h3>Need Help?</h3>
-          <p>Contact us at <a href="mailto:support@myseasonalspark.com">support@myseasonalspark.com</a> — we're here to help.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; 2026 My Seasonal Spark. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="mailto:support@myseasonalspark.com">Contact</a>
-          <a href="./offer.html">Catalog</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script>
-  (function(){
-    var bid='b2',page=location.pathname.split('/').pop()||'index.html';
-    var key='asi_pv_'+bid;
-    try{var d=JSON.parse(localStorage.getItem(key)||'{}');d[page]=(d[page]||0)+1;d._total=(d._total||0)+1;d._last=new Date().toISOString();d._ref=document.referrer||'direct';localStorage.setItem(key,JSON.stringify(d));}catch(e){}
-    if(window.ASI_ANALYTICS_URL){try{navigator.sendBeacon(window.ASI_ANALYTICS_URL,JSON.stringify({business_id:bid,page:page,referrer:document.referrer||'direct',timestamp:new Date().toISOString(),ua:navigator.userAgent}));}catch(e){}}
-  })();
-  </script>
+      </article>
+      <aside class="visual-side">
+
+      <figure class="visual-board visual-human">
+        <img class="visual-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjIwIiB2aWV3Qm94PSIwIDAgOTAwIDYyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNeSBTZWFzb25hbCBTcGFyayB0aGFuayB5b3UgdmlzdWFsIj4KICAgICAgPGRlZnM+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHgyPSIxIiB5MT0iMCIgeTI9IjEiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjRkZGRkZGIi8+CiAgICAgICAgICA8c3RvcCBvZmZzZXQ9Ii40OCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNEVDREM0IiBzdG9wLW9wYWNpdHk9Ii4yMiIvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgIDwvZGVmcz4KICAgICAgPHJlY3Qgd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MjAiIHJ4PSI0OCIgZmlsbD0idXJsKCNiZykiLz4KICAgICAgCiAgICAgICAgPHJlY3QgeD0iNTgiIHk9IjYyIiB3aWR0aD0iNzg0IiBoZWlnaHQ9IjQ5NiIgcng9IjQyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iLjk0Ii8+CiAgICAgICAgPHJlY3QgeD0iMTAwIiB5PSIxMTgiIHdpZHRoPSIyMTQiIGhlaWdodD0iMzAwIiByeD0iMjgiIGZpbGw9IiNGRjZCNkIiIG9wYWNpdHk9Ii4xNiIvPgogICAgICAgIDxyZWN0IHg9IjM0MiIgeT0iMTE4IiB3aWR0aD0iMjE0IiBoZWlnaHQ9IjMwMCIgcng9IjI4IiBmaWxsPSIjNEVDREM0IiBvcGFjaXR5PSIuMTgiLz4KICAgICAgICA8cmVjdCB4PSI1ODQiIHk9IjExOCIgd2lkdGg9IjIxNCIgaGVpZ2h0PSIzMDAiIHJ4PSIyOCIgZmlsbD0iI0ZGRTY2RCIgb3BhY2l0eT0iLjIyIi8+CiAgICAgICAgPGNpcmNsZSBjeD0iMjA2IiBjeT0iMjI2IiByPSI2MCIgZmlsbD0iI0ZGNkI2QiIgb3BhY2l0eT0iLjQ1Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iNDQ4IiBjeT0iMjI2IiByPSI2MCIgZmlsbD0iIzRFQ0RDNCIgb3BhY2l0eT0iLjQ1Ii8+CiAgICAgICAgPGNpcmNsZSBjeD0iNjkwIiBjeT0iMjI2IiByPSI2MCIgZmlsbD0iI0ZGRTY2RCIgb3BhY2l0eT0iLjQ4Ii8+CiAgICAgICAgPHBhdGggZD0iTTEzMiAzNTAgSDI4MiBNMzc0IDM1MCBINTI0IE02MTYgMzUwIEg3NjYiIHN0cm9rZT0iIzJGMzY0MCIgc3Ryb2tlLXdpZHRoPSI4IiBvcGFjaXR5PSIuMzQiLz4KICAgICAgICA8cGF0aCBkPSJNMTU4IDM4MiBIMjU2IE00MDAgMzgyIEg0OTggTTY0MiAzODIgSDc0MCIgc3Ryb2tlPSIjMkYzNjQwIiBzdHJva2Utd2lkdGg9IjYiIG9wYWNpdHk9Ii4yMiIvPgogICAgICAgIAogICAgICA8dGV4dCB4PSI5MiIgeT0iNTcwIiBmaWxsPSIjMkYzNjQwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjgiIGZvbnQtd2VpZ2h0PSI3MDAiPk15IFNlYXNvbmFsIFNwYXJrPC90ZXh0PgogICAgICA8dGV4dCB4PSI5MiIgeT0iNjA0IiBmaWxsPSIjMkYzNjQwIiBvcGFjaXR5PSIuNzIiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCI+VXJnZW5jeSB3aXRob3V0IHBhbmljIHwgRWFzeSBnaWZ0IHNlbGVjdGlvbiB8IENsZWFuIHByb2R1Y3QgY29uZmlkZW5jZTwvdGV4dD4KICAgIDwvc3ZnPg==" alt="My Seasonal Spark thank you visual system" loading="eager" />
+        <figcaption>
+          <strong>Post-purchase experience</strong>
+          <span>Warm Human + Clean Commerce</span>
+        </figcaption>
+      </figure>
+
+        <h2>Immediate Next Steps</h2>
+        <ul class="proof-points">
+          <li>Reassure the buyer what they purchased and what happens next.</li>
+          <li>Offer one tightly related follow-on only if it increases usefulness.</li>
+          <li>Route support, delivery, or onboarding links without adding clutter.</li>
+        </ul>
+      </aside>
+    </section>
+    <section class="grid-two" style="margin-top:24px;">
+      <section class="panel">
+        <h2>Brand Continuity</h2>
+        <ul>
+          <li>Warm Human + Clean Commerce remains in use.</li>
+          <li>Typography stays on Poppins, Nunito, and Righteous.</li>
+          <li>Palette continuity preserves recognition across email, checkout, and support.</li>
+        </ul>
+      </section>
+      <section class="panel">
+        <h2>Guardrails</h2>
+        <ul><li>No traffic until HTTPS is fixed.</li><li>No catalog publication until supplier mapping is real.</li><li>No noisy holiday graphics that cheapen the brand.</li></ul>
+      </section>
+    </section>
+
+    <div class="footer-note">Powered by ASI Network. My Seasonal Spark public preview surfaces stay activation-gated until owner approval.</div>
+  </main>
 </body>
 </html>

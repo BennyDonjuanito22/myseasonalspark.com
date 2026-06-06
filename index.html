@@ -1,270 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | My Seasonal Spark</title>
-  <meta name="description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta property="og:title" content="Home | My Seasonal Spark">
-  <meta property="og:description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://myseasonalspark.com/">
-  <meta property="og:image" content="https://myseasonalspark.com/assets/og-image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Home | My Seasonal Spark">
-  <meta name="twitter:description" content="Shop My Seasonal Spark&#x27;s seasonal product catalog: apparel, home decor, ornaments, personalized gifts, holiday bundles, and limited-time drop items.">
-  <meta name="twitter:image" content="https://myseasonalspark.com/assets/og-image.png">
-  <link rel="icon" href="./assets/favicon.ico">
-  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Righteous:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Seasonal Spark | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Righteous:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body data-business-id="b2">
-  <header class="site-header">
-    <div class="container">
-      <a href="./index.html" class="logo"><span>M</span>y Seasonal Spark</a>
-      <nav class="nav-links">
-    <a href="./index.html" class="active">Home</a>
-    <a href="./offer.html">Catalog</a>
-    <a href="./checkout.html">Store Status</a>
+<body class="mode-human">
+  <main class="page">
+    <header class="header">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-copy">
+          <strong>My Seasonal Spark</strong>
+          <span>Spark or star paired with a gift-ready seasonal mark.</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a class='button primary' href='index.html'>Home</a>
+        <a class='button ghost' href='offer.html'>Offer</a>
+        <a class='button ghost' href='checkout.html'>Checkout</a>
+        <a class='button ghost' href='channels.html'>Channels</a>
+        <a class='button ghost' href='thank-you.html'>Thank You</a>
       </nav>
-    </div>
-  </header>
-  <section class="hero-section">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-badge">Seasonal products, apparel, decor, and personalized gifts</div>
-        <h1>Shop Seasonal Apparel, Home Decor, and Personalized Gifts</h1>
-        <p>Browse real product inventory from the My Seasonal Spark Shopify/POD catalog. The store is built around individual SKUs, variants, and seasonal collections.</p>
-        <div class="btn-group">
-          <a href="./offer.html" class="btn btn-primary">Browse Catalog</a>
+    </header>
+
+    <section class="hero">
+      <article class="hero-card">
+        <div class="eyebrow">Warm Human + Clean Commerce</div>
+        <h1>Giftable seasonal products with zero browsing overload.</h1>
+        <p>The store, Pinterest pins, personalization prompts, and checkout need the same cheerful but controlled seasonal system.</p>
+        <div class="actions">
+          <a class="button primary" href="./offer.html">View the Offer</a>
+          <a class="button ghost" href="./channels.html">See Where It Shows Up</a>
         </div>
+        <div class="meta">
+          <div class="meta-card">
+            <strong>Primary Destination</strong>
+            <span>https://myseasonalspark.com</span>
+          </div>
+          <div class="meta-card">
+            <strong>Customer Path</strong>
+            <span>Pinterest seasonal pin -&gt; collection landing -&gt; checkout</span>
+          </div>
+
+          <div class="meta-card">
+            <strong>Trust Signal</strong>
+            <span>Gift-ready product cards</span>
+          </div>
+        </div>
+      </article>
+      <aside class="visual-side">
+
+      <figure class="visual-board visual-human">
+        <img class="visual-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNjIwIiB2aWV3Qm94PSIwIDAgOTAwIDYyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNeSBTZWFzb25hbCBTcGFyayBob21lcGFnZSB2aXN1YWwiPgogICAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeDI9IjEiIHkxPSIwIiB5Mj0iMSI+CiAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNGRkZGRkYiLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iLjQ4IiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+CiAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0RUNEQzQiIHN0b3Atb3BhY2l0eT0iLjIyIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPC9kZWZzPgogICAgICA8cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYyMCIgcng9IjQ4IiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICAKICAgICAgICA8cmVjdCB4PSI1OCIgeT0iNjIiIHdpZHRoPSI3ODQiIGhlaWdodD0iNDk2IiByeD0iNDIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIuOTQiLz4KICAgICAgICA8cmVjdCB4PSIxMDAiIHk9IjExOCIgd2lkdGg9IjIxNCIgaGVpZ2h0PSIzMDAiIHJ4PSIyOCIgZmlsbD0iI0ZGNkI2QiIgb3BhY2l0eT0iLjE2Ii8+CiAgICAgICAgPHJlY3QgeD0iMzQyIiB5PSIxMTgiIHdpZHRoPSIyMTQiIGhlaWdodD0iMzAwIiByeD0iMjgiIGZpbGw9IiM0RUNEQzQiIG9wYWNpdHk9Ii4xOCIvPgogICAgICAgIDxyZWN0IHg9IjU4NCIgeT0iMTE4IiB3aWR0aD0iMjE0IiBoZWlnaHQ9IjMwMCIgcng9IjI4IiBmaWxsPSIjRkZFNjZEIiBvcGFjaXR5PSIuMjIiLz4KICAgICAgICA8Y2lyY2xlIGN4PSIyMDYiIGN5PSIyMjYiIHI9IjYwIiBmaWxsPSIjRkY2QjZCIiBvcGFjaXR5PSIuNDUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI0NDgiIGN5PSIyMjYiIHI9IjYwIiBmaWxsPSIjNEVDREM0IiBvcGFjaXR5PSIuNDUiLz4KICAgICAgICA8Y2lyY2xlIGN4PSI2OTAiIGN5PSIyMjYiIHI9IjYwIiBmaWxsPSIjRkZFNjZEIiBvcGFjaXR5PSIuNDgiLz4KICAgICAgICA8cGF0aCBkPSJNMTMyIDM1MCBIMjgyIE0zNzQgMzUwIEg1MjQgTTYxNiAzNTAgSDc2NiIgc3Ryb2tlPSIjMkYzNjQwIiBzdHJva2Utd2lkdGg9IjgiIG9wYWNpdHk9Ii4zNCIvPgogICAgICAgIDxwYXRoIGQ9Ik0xNTggMzgyIEgyNTYgTTQwMCAzODIgSDQ5OCBNNjQyIDM4MiBINzQwIiBzdHJva2U9IiMyRjM2NDAiIHN0cm9rZS13aWR0aD0iNiIgb3BhY2l0eT0iLjIyIi8+CiAgICAgICAgCiAgICAgIDx0ZXh0IHg9IjkyIiB5PSI1NzAiIGZpbGw9IiMyRjM2NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyOCIgZm9udC13ZWlnaHQ9IjcwMCI+TXkgU2Vhc29uYWwgU3Bhcms8L3RleHQ+CiAgICAgIDx0ZXh0IHg9IjkyIiB5PSI2MDQiIGZpbGw9IiMyRjM2NDAiIG9wYWNpdHk9Ii43MiIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4Ij5VcmdlbmN5IHdpdGhvdXQgcGFuaWMgfCBFYXN5IGdpZnQgc2VsZWN0aW9uIHwgQ2xlYW4gcHJvZHVjdCBjb25maWRlbmNlPC90ZXh0PgogICAgPC9zdmc+" alt="My Seasonal Spark homepage visual system" loading="eager" />
+        <figcaption>
+          <strong>First impression direction</strong>
+          <span>Warm Human + Clean Commerce</span>
+        </figcaption>
+      </figure>
+
+        <h2>My Seasonal Spark in one glance</h2>
+        <ul class="proof-points"><li>Gift-ready product cards</li><li>Personalization cues</li><li>Shipping deadline clarity</li></ul>
+      </aside>
+    </section>
+    <section class="panel" style="margin-top:24px;">
+      <h2>Conversion Pillars</h2>
+      <div class="grid-three" style="margin-top:18px;">
+        <article class='offer-card'><h3>Urgency without panic</h3><p>Urgency without panic</p></article><article class='offer-card'><h3>Easy gift selection</h3><p>Easy gift selection</p></article><article class='offer-card'><h3>Clean product confidence</h3><p>Clean product confidence</p></article>
       </div>
-    </div>
-  </section>
-  <section class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Why Choose My Seasonal Spark</h2>
-      <p class="section-subtitle">Here's what makes us different.</p>
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>Real Product Catalog</h3>
-          <p>The public surface now points at named inventory from the Shopify/POD catalog instead of generic service packages.</p>
-        </div>
-        <div class="feature-card">
-          <h3>Shop by Product or Occasion</h3>
-          <p>Seasonal collections are organized around actual items: apparel, decor, ornaments, gifts, and holiday bundles.</p>
-        </div>
-        <div class="feature-card">
-          <h3>Checkout Integrity</h3>
-          <p>Checkout stays tied to Shopify and fulfillment readiness. No static surprise-package checkout tiers.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Seasonal Product Catalog</h2>
-      <p class="section-subtitle">Named products, visible prices, and Shopify product handles from the B2 catalog source.</p>
-      <div class="catalog-meta">
-        <span class="catalog-pill">12 featured products shown</span>
-        <span class="catalog-pill">Source: Shopify catalog snapshot</span>
-        <span class="catalog-pill">No mystery boxes</span>
-      </div>
-      <div class="catalog-grid">
-        <article class="catalog-card">
-          <div class="catalog-price">$27.99</div>
-          <h3>4th of July BBQ Apron — Patriotic Custom Name</h3>
-          <p>Patriotic custom apron with name and American flag design. Perfect BBQ gift for Independence Day season.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Party &amp; Seasonal</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/4th-of-july-bbq-apron-patriotic-custom-name" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$9.00</div>
-          <h3>50 Viral Hook Prompts</h3>
-          <p>Instant copy/paste library of 50 proven viral hook prompts for TikTok, Reels, YouTube Shorts, and X. Designed for creators and marketers who want scroll-stopping...</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Digital Download</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/50-viral-hook-prompts" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$19.99</div>
-          <h3>AI-Generated Pet Ornament — Custom Holiday Collectible</h3>
-          <p>Custom AI-generated ornament featuring your pet&#x27;s likeness. Print-on-demand fulfillment. Ships 3–5 business days.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Christmas Ornaments</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/ai-generated-pet-ornament-custom-holiday-collectible" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$19.99</div>
-          <h3>AI-Generated Pet Ornament — Custom Holiday Keepsake</h3>
-          <p>Turn your pet into a holiday legend. Our AI-Generated Pet Ornament transforms a photo of your beloved pet into a one-of-a-kind holiday keepsake. No two ornaments are...</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Ornament</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/ai-generated-pet-ornament-custom-holiday-keepsake" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$16.99</div>
-          <h3>Baby&#x27;s First Christmas Ornament 2026</h3>
-          <p>Commemorative baby&#x27;s first Christmas ornament with birth year. Keepsake quality print-on-demand.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Christmas Ornaments</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/babys-first-christmas-ornament-2026" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$27.99</div>
-          <h3>Baby&#x27;s First Stocking — 2026</h3>
-          <p>Personalized first-year stocking with baby name and year. Keepsake quality print-on-demand.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Stockings</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/babys-first-stocking-2026" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$29.99</div>
-          <h3>Birthday Custom Photo Collage Print</h3>
-          <p>Collage-style birthday print with up to 10 photos and custom message. Ships framed or rolled.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Life Events</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/birthday-custom-photo-collage-print" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$59.99</div>
-          <h3>Christmas Gift Bundle — Ornament + Stocking + Mug</h3>
-          <p>Holiday bundle for the whole family: custom ornament + personalized stocking + photo mug. Save $15 vs individual.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Holiday Bundles</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/christmas-gift-bundle-ornament-stocking-mug" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$44.99</div>
-          <h3>Christmas Tree Skirt — Personalized Family Names</h3>
-          <p>Round tree skirt with family member names around the border. White and plaid background options.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Home Decor</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/christmas-tree-skirt-personalized-family-names" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$19.99</div>
-          <h3>Couple&#x27;s First Christmas Ornament</h3>
-          <p>Custom couples ornament with names and year. Heart design with photo option. Perfect wedding or anniversary gift.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Christmas Ornaments</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/couples-first-christmas-ornament" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$39.99</div>
-          <h3>Custom Advent Calendar</h3>
-          <p>Personalized advent calendar with custom name and design. A unique countdown-to-holiday keepsake.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Advent Calendars</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/custom-advent-calendar" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-        <article class="catalog-card">
-          <div class="catalog-price">$27.99</div>
-          <h3>Custom Apron — Name &amp; Fun Kitchen Design</h3>
-          <p>Custom printed apron with name and kitchen design. Great for cooks, BBQ lovers, and holiday host gifts.</p>
-          <div class="catalog-tags">
-            <span class="catalog-tag">Gifts</span>
-            <span class="catalog-tag">active</span>
-          </div>
-          <a href="https://hu3dma-1w.myshopify.com/products/custom-apron-name-fun-kitchen-design" class="btn btn-secondary">View Shopify Item</a>
-        </article>
-      </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">How It Works</h2>
-      <p class="section-subtitle">Simple, clear, and designed to get you results fast.</p>
-      <div class="process-grid">
-        <div class="process-step">
-          <h3>1. Browse the catalog</h3>
-          <p>Review named seasonal products, prices, categories, and Shopify handles.</p>
-        </div>
-        <div class="process-step">
-          <h3>2. Pick a SKU and variant</h3>
-          <p>Choose the product, size, color, or personalization fields supported by that item.</p>
-        </div>
-        <div class="process-step">
-          <h3>3. Checkout through Shopify</h3>
-          <p>Orders should close through the Shopify store once the domain and storefront lock are cleared.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <div class="faq-list">
-        <details class="faq-item">
-          <summary>Is this a mystery gift box?</summary>
-          <p>No. My Seasonal Spark is a seasonal ecommerce catalog with named products, variants, and transparent prices.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Why does checkout route through Shopify?</summary>
-          <p>B2 is a Shopify/POD ecommerce business. Shopify is the expected customer checkout and product-management surface.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Are all products ready for live ordering?</summary>
-          <p>No live checkout should be treated as complete until the Shopify domain, payment, supplier binding, and fulfillment proof are verified.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Can products be personalized?</summary>
-          <p>Some catalog items support names, photos, dates, or gift notes. Personalization is product-specific, not a generic bundle.</p>
-        </details>
-      </div>
-    </div>
-  </section>
-  <section class="cta-section">
-    <div class="container">
-      <h2>Ready to Get Started?</h2>
-      <p>Seasonal products, apparel, decor, and personalized gifts</p>
-      <a href="./offer.html" class="btn btn-primary">Browse Catalog</a>
-    </div>
-  </section>
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; 2026 My Seasonal Spark. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="mailto:support@myseasonalspark.com">Contact</a>
-          <a href="./offer.html">Catalog</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script>
-  (function(){
-    var bid='b2',page=location.pathname.split('/').pop()||'index.html';
-    var key='asi_pv_'+bid;
-    try{var d=JSON.parse(localStorage.getItem(key)||'{}');d[page]=(d[page]||0)+1;d._total=(d._total||0)+1;d._last=new Date().toISOString();d._ref=document.referrer||'direct';localStorage.setItem(key,JSON.stringify(d));}catch(e){}
-    if(window.ASI_ANALYTICS_URL){try{navigator.sendBeacon(window.ASI_ANALYTICS_URL,JSON.stringify({business_id:bid,page:page,referrer:document.referrer||'direct',timestamp:new Date().toISOString(),ua:navigator.userAgent}));}catch(e){}}
-  })();
-  </script>
+    </section>
+
+    <div class="footer-note">Powered by ASI Network. My Seasonal Spark public preview surfaces stay activation-gated until owner approval.</div>
+  </main>
 </body>
 </html>
